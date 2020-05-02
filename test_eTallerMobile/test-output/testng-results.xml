@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56078" started-at="2020-04-24T01:57:39 COT" finished-at="2020-04-24T01:58:35 COT">
+    <groups>
+    </groups>
+    <test name="TestMobile_eTaller" duration-ms="56078" started-at="2020-04-24T01:57:39 COT" finished-at="2020-04-24T01:58:35 COT">
+      <class name="eTaller.appium.main.mainTest2">
+        <test-method status="PASS" signature="inicioClase()[pri:0, instance:eTaller.appium.main.mainTest2@43301423]" name="inicioClase" is-config="true" duration-ms="15444" started-at="2020-04-24T01:57:39 COT" finished-at="2020-04-24T01:57:54 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="IniciarSesion(java.lang.String, java.lang.String)[pri:0, instance:eTaller.appium.main.mainTest2@43301423]" name="IniciarSesion" duration-ms="10619" started-at="2020-04-24T01:57:54 COT" description="Login" finished-at="2020-04-24T01:58:05 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IniciarSesion -->
+        <test-method status="PASS" signature="Test_NativeView()[pri:0, instance:eTaller.appium.main.mainTest2@43301423]" name="Test_NativeView" duration-ms="13209" started-at="2020-04-24T01:58:05 COT" description="Acceder a una ventana y leer elementos" finished-at="2020-04-24T01:58:18 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NativeView -->
+        <test-method status="PASS" signature="Test_DragAndDrop()[pri:0, instance:eTaller.appium.main.mainTest2@43301423]" name="Test_DragAndDrop" duration-ms="16708" started-at="2020-04-24T01:58:18 COT" description="Ejercicio de presionar, arrastrar y soltar" finished-at="2020-04-24T01:58:35 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DragAndDrop -->
+        <test-method status="PASS" signature="testCaseSkipException()[pri:0, instance:eTaller.appium.main.mainTest2@43301423]" name="testCaseSkipException" duration-ms="5" started-at="2020-04-24T01:58:35 COT" depends-on-methods="eTaller.appium.main.mainTest2.Test_DragAndDrop" finished-at="2020-04-24T01:58:35 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseSkipException -->
+      </class> <!-- eTaller.appium.main.mainTest2 -->
+    </test> <!-- TestMobile_eTaller -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <!DOCTYPE suite SYSTEM "testng-1.0.dtd"> -->
+<suite name="Suite" parallel="false">
+
+	<test name="Test6666Mobile_eTaller">
+
+		<parameter name="user" value="procuradorautoapp2@gmail.com" />
+		<parameter name="pass" value="Test2020#" />
+
+		<classes>
+			<class name="eTaller.appium.main.mainTest">
+				<methods>
+					
+					<include name="IniciarSesion" />
+					<include name="test_VerMapa" />
+					<!--
+					<include name="IniciarSesion" />
+					
+					<include name="Test_Slider" />
+					<include name="Test_DragAndDrop" />
+					<include name="testCaseSkipException" />
+					 -->
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>
+
